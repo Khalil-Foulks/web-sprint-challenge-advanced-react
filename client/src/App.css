@@ -251,3 +251,57 @@ pre {
   color: #0e101c;
   border-bottom: 2px solid !important;
 }
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode {
+  color: black;
+  background-color: #d1ddf0;
+}
+
+.dark-mode .plant-details {
+  color: black;
+}
+.dark-mode h1 {
+  color: black;
+}
+.dark-mode h2 {
+  color: black;
+}
+.dark-mode p {
+  color: black;
+}
+
+.dark-mode .container {
+  border-bottom: 1px solid green;
+}
+
+.dark-mode .steps li {
+  background: green;
+  color: #d1ddf0;
+}
+
+.dark-mode .steps li a {
+  color: white;
+}
